@@ -9,4 +9,4 @@ fi
 
 sed -i "" "s/URL=.*/$res/g" .env
 cat .env
-cat "gcloud deploy will run here,after URL changes"
+echo "gcloud deploy will run here,after URL changes"
